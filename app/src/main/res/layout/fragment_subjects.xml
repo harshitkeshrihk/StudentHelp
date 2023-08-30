@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#232426"
+    tools:context=".home.ui.SubjectsFragment">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/maths"
+        android:layout_width="300dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#86A0FA"
+        app:cardCornerRadius="17.5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="400dp"
+            android:layout_height="140dp"
+            android:src="@drawable/group_36699"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="30dp"
+            android:text="Mathematics"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/physics"
+        android:layout_width="270dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="#FF5761"
+        app:cardCornerRadius="17.5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/maths">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="350dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/group_36700"
+            android:scaleType="centerCrop"/>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="30dp"
+            android:text="Physics"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/chemistry"
+        android:layout_width="240dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="-30dp"
+        android:layout_marginTop="-10dp"
+        android:backgroundTint="#FFF129"
+        app:cardCornerRadius="17.5dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/physics">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="350dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/group_36701"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="30dp"
+            android:text="Chemistry"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/hindi"
+        android:layout_width="210dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="-30dp"
+        android:backgroundTint="#0000FF"
+        app:cardCornerRadius="17.5dp"
+        android:layout_marginTop="-10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chemistry">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="350dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="-5dp"
+            android:src="@drawable/group_36702"
+            android:scaleType="centerCrop"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginRight="30dp"
+            android:text="Hindi"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

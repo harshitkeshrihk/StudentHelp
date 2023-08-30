@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "963155841744",
+    "project_id": "studentshelp-a6543",
+    "storage_bucket": "studentshelp-a6543.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:963155841744:android:eed75410c6b3905b9444d5",
+        "android_client_info": {
+          "package_name": "com.hk.studentshelp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "963155841744-hk64ij2macb2m8kfeah4ioghhqn500oq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.hk.studentshelp",
+            "certificate_hash": "3ce4153ec2ffe83c0520e0b4a0bad12b1cec8da4"
+          }
+        },
+        {
+          "client_id": "963155841744-5gemnu0plohq2qvbuc731qics4g9qk5s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCt2b0LKp07LWeTpME_tv-sagp931_r_5Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "963155841744-5gemnu0plohq2qvbuc731qics4g9qk5s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".loginsignup.SignupFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<androidx.appcompat.widget.LinearLayoutCompat
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:orientation="vertical"
+    android:padding="21dp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_logo_mark"
+        android:layout_gravity="center_horizontal" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create an Account"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="28sp"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="We are happy to welcome you to this platform"
+        android:textColor="#FF8A90A2"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"/>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="10dp"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/edit_text_border"
+        android:hint="John Adams"
+        android:textColorHint="#FF8A90A2"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email Address"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="10dp"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/edit_text_border"
+        android:hint="hello@example.com"
+        android:textColorHint="#FF8A90A2"
+        android:textSize="18dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:fontFamily="@font/dm_sans"
+        android:textColor="@color/white"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:padding="10dp"
+        android:inputType="textPassword"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/edit_text_border"
+        android:hint="Password"
+        android:textColorHint="#FF8A90A2"
+        android:textSize="18dp"/>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btSignup"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/dm_sans"
+        android:background="@drawable/button_border"
+        android:text="Create an Account"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:textAllCaps="false"/>
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_line_21"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="or login with"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:textColor="@color/white"/>
+
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center_vertical"
+            android:src="@drawable/ic_line_21"/>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:weightSum="3"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+            android:backgroundTint="@color/white"
+            android:layout_weight="1"
+            android:layout_marginRight="10dp"
+            app:cardCornerRadius="10dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_facebook"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/white"
+        android:layout_weight="1"
+            android:layout_marginRight="10dp"
+        app:cardCornerRadius="10dp">
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_google_logo"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:backgroundTint="@color/white"
+        android:layout_weight="1"
+        app:cardCornerRadius="10dp">
+
+            <androidx.appcompat.widget.AppCompatImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_apple"
+                android:layout_gravity="center_horizontal|center_vertical"/>
+        </com.google.android.material.card.MaterialCardView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Have an Account?"
+            android:textColor="#8A90A2"
+            android:textSize="16sp"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/signinhere"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign in here"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp"
+            android:textColor="#5956E9"
+            android:textSize="16sp"/>
+    </LinearLayout>
+</androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>
